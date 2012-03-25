@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, OneTouchActivity!</string>
+    <string name="app_name">OneTouch</string>
+    <string name="prefUsername">Username</string>
+    <string name="prefPassword">Password</string>
+    <string name="menuRefresh">Refresh</string>
+    <string name="menuSettings">Settings</string>
+    <string name="prefSecureConnection">Use a secure connection (https)</string>
+    <string name="prefSpectroServerName">Servername</string>
+    <string name="prefSpectroServerNameLong">Name or IP of the host where the restful spectrum API is.</string>
+    <string name="prefSpectumBasePath">Spectum URL path</string>
+    <string name="prefSpectumBasePathLong">The path part of the URL. (default: spectrum)</string>
+
+</resources>

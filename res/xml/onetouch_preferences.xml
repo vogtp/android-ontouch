@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <EditTextPreference
+        android:key="prefKeyUsername"
+        android:title="@string/prefUsername" />
+    <EditTextPreference
+        android:key="prefKeyPassword"
+        android:title="@string/prefPassword" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="prefKeySecureConnection"
+        android:title="@string/prefSecureConnection" />
+
+    <EditTextPreference
+        android:key="prefKeySpectroServerName"
+        android:summary="@string/prefSpectroServerNameLong"
+        android:title="@string/prefSpectroServerName" />
+    <EditTextPreference
+        android:defaultValue="spectrum"
+        android:key="prefKeySpectumBasePath"
+        android:summary="@string/prefSpectumBasePathLong"
+        android:title="@string/prefSpectumBasePath" />
+
+</PreferenceScreen>
